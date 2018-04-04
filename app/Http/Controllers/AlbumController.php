@@ -16,7 +16,7 @@ use Session;
 
 class AlbumController extends Controller
 {
-    
+
     protected function countStars($album_id){
         try{
             $stars = DB::table('stars')
